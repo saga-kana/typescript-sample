@@ -1,0 +1,25 @@
+{
+  "name": "typescript-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "googleapis": "^27.0.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "vue-cli": "^2.9.6",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "@saga_kana",
+  "license": "ISC"
+}
